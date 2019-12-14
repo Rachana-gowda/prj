@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<div class="form-area">
+		<div class="img-area">
+			<img src="images.png" alt="">
+		</div>
+		<h2>Login &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Form</h2>
+		<p>Your Name:</p>
+		<input type="text" id="un">
+		<p>Your Password</p>
+		<input type="password" maxlength="8" id="up"><br><br>
+
+		<a href="demo.html" class="btn" onclick="rac()">
+			<span class="btn-text">Sign In</span>
+			
+		</a>
+
+		<a href="#" class="for-pass">Forgot Password?</a>
+		
+	</div>
+
+<script>
+	function rac() {
+	var a=document.getElementById('un').value;
+	var b=document.getElementById('up').value;
+	if(a=="" && b=="") {
+		alert("Enter your details");
+        return;
+    }
+
+
+	
+}
+</script>
+</body>
+</html>
